@@ -8,7 +8,7 @@ export default function Home() {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     e.preventDefault();
-    const value = e.target.value;
+    const value: string = e.target.value;
     setValue(value);
   };
 
